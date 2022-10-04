@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+</head>
+<body>
+    <header>
+        <div>
+            <h2>Library</h2>
+
+        </div>
+
+    </header>
+
+    <div>
+        <Form>
+            <div class= "input_section">
+                <h3>Let's do this!</h3>
+                <div class = "inputs">
+                    <div> 
+                        <div>
+                            <label for="book_name">Book's Name:<br></label>
+                            <input type="text" name="book_name" id="book_name" required>
+                        </div>
+                        <div>
+                            <label for="author_name">Author:<br></label>
+                            <input type="text" name="author_name" id="author_name" required>
+                        </div>
+                        <div>
+                            <label for="pages">Pages:<br></label>
+                            <input type="number" name="pages" id="pages" required>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <label for="read">Read?:<br></label>
+                            <input type="checkbox" name="read" id="read">
+                        </div>            
+            
+
+                    </div>
+                </div>
+            </div>
+            <div class = "btn_section">
+                <div><Button type="submit" id="submitButton">Submit</Button></div>
+                
+            </div>
+        </Form>
+    
+    </div>  
+    <div   id="books-pannel" >
+        <h3>Your Projects</h3>
+        <div  id="books">
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
