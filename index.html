@@ -5,20 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Library</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div>
+        <div id="header">
             <h2>Library</h2>
 
         </div>
 
     </header>
 
-    <div>
+    <div id="input">
         <Form>
             <div class= "input_section">
-                <h3>Let's do this!</h3>
+                <h1>New Book</h1>
                 <div class = "inputs">
                     <div> 
                         <div>
@@ -44,15 +45,16 @@
                     </div>
                 </div>
             </div>
-            <div class = "btn_section">
-                <div><Button type="submit" id="submitButton">Submit</Button></div>
-                
-            </div>
+            
         </Form>
+        <div class = "btn_section">
+            <div><Button type="submit" id="submitButton" role="button">Submit</Button></div>
+            
+        </div>
     
     </div>  
     <div   id="books-pannel" >
-        <h3>Your Projects</h3>
+        <h1>Your Books</h1>
         <div  id="books">
         </div>
     </div>
